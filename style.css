@@ -1,14 +1,17 @@
 /*
-	Theme Name: Hueman Child
-	Theme URI: http://alxmedia.se/themes/hueman/
-	Description: Sample child theme for customization.
-	Author: You
-	Author URI: 
-	Template: hueman
-	Version: 1.0.0
+    Theme Name: Hueman Child
+    Theme URI: http://alxmedia.se/themes/hueman/
+    Description: Sample child theme for customization.
+    Author: You
+    Author URI:
+    Template: hueman
+    Version: 1.0.0
 */
 
-@import url("../hueman/style.css");
+/* Replaced by an import function in functions.php */
+/* for loading speed reasons                       */
+
+/*@import url("../hueman/style.css");*/
 
 /* ------------------------------------------------------------------------- *
  *  Theme customization starts here
@@ -20,17 +23,17 @@
 
 /* Tablet - 800px, 768px & 720px */
 @media only screen and (min-width: 720px) and (max-width: 800px) {
-	.mystyle {}
+    .mystyle {}
 }
 
 
 /* Mobile - 480px & 320px */
 @media only screen and (max-width: 719px) {
-	.mystyle {}
+    .mystyle {}
 }
 
 
 /* Mobile - 320px */
 @media only screen and (max-width: 479px) {
-	.mystyle {}
+    .mystyle {}
 }
